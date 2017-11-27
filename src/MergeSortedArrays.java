@@ -9,8 +9,8 @@ public class MergeSortedArrays {
 
     public static class Item {
         int value;
-        int x;
-        int y;
+        int x; // very informative name :)
+        int y; // very informative name :)
 
         public Item(int value, int x, int y) {
             this.value = value;
