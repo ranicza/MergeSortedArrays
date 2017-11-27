@@ -9,8 +9,8 @@ public class MergeSortedArrays {
 
     public static class Item {
         int value;
-        int x; // very informative name :)
-        int y; // very informative name :)
+        int x; // index of the array to which the element belongs
+        int y; // index of the current element in the array
 
         public Item(int value, int x, int y) {
             this.value = value;
